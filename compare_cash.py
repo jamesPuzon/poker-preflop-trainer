@@ -7,7 +7,7 @@ from PIL import Image, ImageDraw
 import json, numpy as np, os
 
 PDF_PATH  = 'Cash-100-Simple-Preflop-Ranges.pdf'
-DATA_PATH = 'src/cash_chart_data.json'
+DATA_PATH = 'src/basic_cash_charts.json'
 OUT_DIR   = 'cash_compare'
 os.makedirs(OUT_DIR, exist_ok=True)
 
